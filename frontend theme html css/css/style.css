@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+	
+}
+#Login{
+	background-color: #EDEDED;
+	overflow: hidden;
+
+}
+#Login a{
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	color: #696969;
+}
+
+#logo{
+	margin:0;
+	padding: 10px;
+	float: left;
+	font-weight: bolder;
+	font-size: 40px;
+}
+#logo div{
+	font-size: 15px;
+	font-weight: normal;
+}
+header nav a{
+	float: right;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	color:dimgrey;
+}
+#huny{
+	width: 100%;
+	height: 500px;
+
+}
+.for{
+	display: inline-block;
+	width: 23%;
+	margin:10px;
+	text-align: justify;
+}
+.for img{
+	width: 100%;
+	height: 175px;
+}
+#sec2{
+	background-color:#EDEDED; 
+
+}
+#font{
+	font-size: 65px;
+	color: #9E9E9E;
+	margin-left: 5%
+
+}
+#sec2 div{
+	position: relative;
+}
+#sec2 div label{
+	position: absolute;
+	margin-top: 23px;
+	margin-left: 5%
+}
+.fore{
+	display: inline-block;
+	width: 23%;
+	margin: 10px;
+}
+.fore ul{
+	padding: 0;
+	list-style-type: none;
+
+}
+.fore ul a{
+	color: #6969696b;
+	text-decoration: none;
+}
+footer{
+	display: inline-block;
+	background-color:#9c9b9a;
+	padding: 5px;
+	width: 100%
+
+}
+footer div{
+	float: left;
+}
+footer i{
+	float: right;
+	padding: 15px;
+	
+}
+#Login a:hover{
+	color:black;
+
+}
+
+header nav a:hover{
+	color:#ebaf4c;
+}
+
+
+
+
