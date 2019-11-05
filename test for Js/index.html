@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$("#but").click(function(){
+			$("#firstp").toggle("3000");
+			});
+
+			$("#firstp").hide();
+
+			$("#cheack").click(function(){
+				$("#truee").css("color","#080");
+				$(".falls").css("color","red");
+			});
+
+			$("#add").click(function(){
+				var n1=$("#num1").val();
+				var n2=$("#num2").val();
+				var res= parseInt(n1) + parseInt(n2);
+				$("#num3").val(res);
+				
+			})
+			$("#sub").click(function(){
+				var n1=$("#num1").val();
+				var n2=$("#num2").val();
+				var res= n1 - n2;
+				$("#num3").val(res);
+				
+			})
+			$("#mult").click(function(){
+				var n1=$("#num1").val();
+				var n2=$("#num2").val();
+				var res= n1 * n2;
+				$("#num3").val(res);
+				
+			})
+			$("#dive").click(function(){
+				var n1=$("#num1").val();
+				var n2=$("#num2").val();
+				var res= n1 / n2;
+				$("#num3").val(res);
+				
+			})
+		});
+
+
+
+
+
+
+
+
+
+
+
+/*
+		$("document").ready(function(){
+			$("div").html("HTU");
+			$("div").append(" Univercity");
+			$("div").prepend("The ");
+		});
+		$("document").ready(function(){
+			$("div").after("<hr>");
+			
+		});
+		$("document").ready(function(){
+			$("").click(function(){
+			$("a").toggle("3000");
+		})	
+		});
+		$("document").ready(function(){
+			$("#but2").click(function(){
+			$("a").show("3000");
+		})	
+		});
+		$("document").ready(function(){
+			$("#but3").click(function(){
+			$("a").hide("3000");
+		})	
+		});
+		
+*/
+
+		
+	</script>
+</head>
+<body>
+	
+	<h2>What is Html?</h2>
+	<button id="but">toggle</button>
+	<p id="firstp">The definition of HTML is HyperText Markup Language.</p>
+
+	<h2>where is HTU?</h2>
+	<input type="radio" name="city"><span id="truee">Amman</span> 
+	<input type="radio" name="city"><span class="falls">Irbid</span> 
+	<input type="radio" name="city"><span class="falls">Aqaba</span> 
+	<input type="radio" name="city"><span class="falls">Zarqa</span>
+
+	<button id="cheack">Is True</button>
+	<br>
+	<br>
+	<label>Num1 : </label>
+	<input  id="num1" type="number" name="">
+	<br>
+	<br>
+	<label>Num2 : </label>
+	<input  id="num2" type="number" name="">
+	<br>
+	<br>
+	<button id="add"> + </button>
+	<button id="sub"> - </button>
+	<button id="mult"> * </button>
+	<button id="dive"> / </button>
+	<br>
+	<br>
+	<label>Result : </label>
+	<input  id="num3" type="number" name="">
+
+</body>
+</html>
