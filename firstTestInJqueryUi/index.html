@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="ui/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="ui/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="coustm.css">
+	<script type="text/javascript">
+		$("document").ready(function(){
+			$("#iconn").click(function(){
+				$("#sect").css("width" , "0");
+				$(".ha").css("visibility", "hidden")
+				$("#iconn").css("visibility", "hidden")
+			});
+
+			$("#show").click(function(){
+				$("#sect").css("width" , "100%");
+				$(".ha").css("visibility", "visible");
+				$("#iconn").css("visibility", "visible")
+			});
+
+			$("#rede").click(function(){
+				$(".black").css("display" , "none");
+				$(".blue").css("display", "none");
+				$(".red").css("display", "inline-block");
+				
+			});
+			$("#bluee").click(function(){
+				$(".red").css("display" , "none");
+				$(".black").css("display", "none");
+				$(".blue").css("display", "inline-block");
+				
+			});
+			$("#blacke").click(function(){
+				$(".red").css("display" , "none");
+				$(".blue").css("display", "none");
+				$(".black").css("display", "inline-block");
+				
+			});
+			$("#all").click(function(){
+				$(".red").css("display" , "inline-block");
+				$(".blue").css("display", "inline-block");
+				$(".black").css("display", "inline-block");
+				
+			});
+		});
+	</script>
+</head>
+<body>
+	
+	<section id="sect">
+<i  id="iconn" class="fas fa-times"></i>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a class="ha" href="">Home</a>
+<br>
+<a class="ha" href="">Sobre a Navegah</a>
+<br>
+<a class="ha" href="">Works</a>
+<br>
+<a class="ha" href="">Contato</a>
+</section>
+
+<i id="show"  class="fas fa-bars"></i>
+<img src="1.jpg" style="width: 100%; height: 100vh;">
+<div class="cuntener">
+	<button id="rede"> red </button>
+	<button id="bluee"> blue </button>
+	<button id="blacke"> black </button>
+	<button id="all"> show all </button>
+	<div class="dis">
+	<div class="red"></div>
+	<div class="red"></div>
+	<div class="red"></div>
+	<div class="blue"></div>
+	<div class="blue"></div>
+	<div class="blue"></div>
+	<div class="black"></div>
+	<div class="black"></div>
+	<div class="black"></div>
+	<div class="black"></div>
+	</div>
+</div>
+<div>
+	<br>
+	<br>
+	<br>
+<div id="first"></div>
+</div>
+</body>
+</html>

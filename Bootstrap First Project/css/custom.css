@@ -1,0 +1,413 @@
+	
+body{
+	
+}
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+}
+.navbar .navbar-inner .brand {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-weight: 400;
+	color: #000!important;
+	padding: 1.7rem 1rem;
+}
+.navbar .nav > li > a{
+	padding: 1.7rem .6rem;
+	font-size: 15px;
+	outline: none!important;
+	opacity: 1!important;
+	color: #000!important;
+	word-spacing: 1px;
+}
+.navbar-inner{  
+	box-shadow: none;
+	background-image: none;
+	border: none;
+}
+
+.breadcrumb{
+	padding: 1.7rem 1rem !important;
+	background: none !important;
+	margin-bottom: 0 !important;
+	font-size: 16px !important;
+}
+.row-fluid .span3 a{
+	color: #11cbd7;
+}
+.herofirst{
+	height: 100vh;
+	background-size: cover;
+	background-image: url(https://colorlib.com/preview/theme/university/images/big_image_2.jpg);
+	border-radius: 0;
+}
+.form{
+	background-color: #fff;
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+}
+.form-inline{
+	background-color: #fff;
+	width: 65%;
+    margin: 0 auto;
+	padding: 20px;
+}
+.forInput1{
+	outline: none !important;
+	border: none !important;
+	width: 20% !important;
+	padding: 10px !important;
+	box-shadow: none !important;
+}
+.forInput2{
+	outline: none !important;
+	border: none !important;
+	width: 20% !important;
+	box-shadow: none !important;
+}
+
+.bottn{
+	margin-left: 80px;
+	font-size: 1.1rem;
+	padding: 10px 12px;
+	width: 100px;
+	background: #11cbd7!important;
+	border: 2px solid transparent!important;
+}
+.paraa{
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 30px;
+
+}
+.bottn2{
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding: 18px 48px;
+	background: #11cbd7!important;
+	border: 2px solid transparent!important;
+
+}
+.forh2 >h2{
+	font-size: 45px;
+	margin: 0;
+	padding: 0;
+	color: #11cbd7;
+	font-family: Rubik, arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.2;
+}
+.forh2 >p{
+	font-family: Rubik, arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 2;
+	color: grey;
+	padding: 20px 40px 40px 0;
+}
+.buttne3{
+	font-size: 1.1rem;
+	font-weight: 300;
+	padding: 10px 22px;
+	background: #11cbd7!important;
+	border: 2px solid transparent!important;
+}
+.container{
+	width: 1110px !important;
+	margin-top: 80px;
+}
+.iconns{
+	font-size: 50px;
+	line-height: 1.2;
+	color: gray;
+}
+.re .span3 > h3{    
+	color: #000 !important;
+	font-family: rubik,arial,sans-serif !important;
+	font-size: 18px !important;
+	font-weight: 400 !important;
+}
+.re .span3 > p{
+	font-size: 15px !important;
+	line-height: 2 !important;
+	color: gray !important;
+	font-weight: 400 !important;
+}
+.re .span3 > a{
+	text-decoration: none !important;
+	text-transform: uppercase !important;
+	font-size: 13px !important;
+	font-family: rubik,arial,sans-serif !important;
+	font-weight: 300 !important;
+	line-height: 2 !important;
+	margin-right: 10px !important;
+}
+.secbackgr{
+	background-color: #F8F9FA;
+}
+.secc{
+	padding-top: 80px;
+}
+.secc2{
+	padding-left: 120px;
+}
+.secc2>h2{ 
+	font-size: 45px;
+	margin: 0;
+	padding: 0;
+	color: #11cbd7;
+	line-height: 2;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+}
+.secc2>p{
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+	font-size: 1rem; 
+	line-height: 2;
+	color: gray;
+}
+.secc2 .row-fluid .span4 > h3{
+	margin:0;
+	font-size: 40px;
+	line-height: 1.5;
+	color: #11cbd7;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+}
+.secc2 .row-fluid .span4 > p{
+	margin:0;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #ccc;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+}
+.herosecond{
+	background-color: #F8F9FA
+}
+.herosecond > h1{
+	font-size: 45px;
+	color: #11cbd7!important;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: .5rem;
+}
+.herosecond > p{
+	    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+        font-size: 1rem;
+    line-height: 2;
+    color: gray;
+}
+.bootton{
+	font-size: 1.1rem;
+	font-weight: 300;
+	background: #11cbd7!important;
+	border: 2px solid transparent!important;
+}
+.therediv .span4{
+	width: 420px;
+	height: 508px;
+	background-color:#fff;
+
+}
+.therediv .span4 h2 a{
+	color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: rubik,arial,sans-serif;
+}
+.therediv .span4 p{
+ font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+        font-size: 1rem;
+    line-height: 2;
+    color: gray;
+}
+.allin{
+	padding: 20px;
+}
+.spanchan{
+	    color: #11cbd7;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 4;
+}
+del{
+	font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 4;
+    margin-left: -50px;
+    padding: 10px;
+    color:gray;
+}
+.spanchan2{
+
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 3;
+    margin-left: -22px !important;
+    padding: 10px;
+
+}
+.forspanchan234{
+    background-color: #11cbd7;
+    border-radius: 4px;
+    display: inline-block ;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+}
+.card{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.card .span4{
+	height: 427px;
+	width: 354px;
+	color:#080;
+	background: linear-gradient(to bottom,transparent 0%,transparent 18%,rgba(0,0,0,0.8) 99%,rgba(0,0,0,0.8) 100%);	
+	background-color: #90ee90;
+}
+.boxfordiv{
+	margin-top: 345px;
+	margin-left: 20px;
+}
+.secforh2 >h2{
+	font-size: 45px;
+    color: #11cbd7!important;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: .5rem
+}
+.secforh2 >p{
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2;
+    color: gray;
+}
+.card .span4 .boxfordiv >h2{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: rubik,arial,sans-serif;
+}
+.card .span4 .boxfordiv >p{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 12px;
+    font-family: rubik,arial,sans-serif;
+}
+.inin{
+	background-color: #fff;
+	padding: 20px 20px 26px 20px;
+}
+.textdec .forh3 a{
+	text-decoration: none;
+	color:#000;
+	
+}
+.textdec .forh3{
+	font-size: 19.6px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+}
+.sec3{
+	padding-bottom: 80px;
+}
+.textdec .fora a{
+	text-decoration: none;
+	color:#b3b3b3;
+}
+.textdec{
+    box-shadow: 0 5px 30px -10px rgba(0,0,0,.2);
+}
+.sizefortest{
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.sizefor .fora a{
+	text-decoration: none;
+	color:#b3b3b3;
+}
+.sizefor .sizefortest {
+	font-size: 17px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+}
+.sizefor .sizefortest a{
+	text-decoration: none;
+	color: #000
+}
+.sec4{
+	    background-color: #11cbd7;
+}
+.sec5 .span3>h3{
+    color: #000;
+    font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+.firstspan3 >p{
+	font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: gray;
+}
+.secendspan div a{
+	font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    text-decoration: none !important;
+}
+.srzetext2 > a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #000 !important;
+    font-family: rubik,arial,sans-serif;
+}
+
+.insiderthea a {
+	font-family: rubik,arial,sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.7;
+    color: #ccc !important;
+}
+.foricon {
+	    color: #ccc;
+	    font-size: 18px;
+}

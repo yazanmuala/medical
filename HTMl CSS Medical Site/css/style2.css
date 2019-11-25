@@ -1,0 +1,10 @@
+div{
+	position: fixed;
+	right: 0;
+	top: 35%;
+}
+div  i{
+	display: block !important;
+	padding: 15px;
+	font-size: 40px;
+}

@@ -1,0 +1,94 @@
+*{
+	font-family: myfonts;
+}
+body{
+	margin:0;
+	padding: 0;
+	
+}
+section{
+	transition: all .35s ease;
+	position: fixed;
+	background-color: rgba(0,0,0, 0.9);
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	z-index: 999999;
+}
+section i{
+	
+    color: #fff;
+    position: fixed;
+    top: 22px;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+section a{
+
+	font-size: 50px;
+	color: #fff;
+	text-decoration: none;
+}
+#show{
+    position: absolute;
+    top: 22px;
+    right: 70px;
+    font-size: 50px;
+    transition: all .35s ease;
+    cursor: pointer;
+}
+.cuntener{
+	text-align: center;
+	transition-duration: .3s;
+}
+.red{
+	transition-duration: .3s;
+	width: 200px;
+	height: 150px;
+	margin:20px;
+	background-image: linear-gradient(to bottom right, red , yellow);
+	display: inline-block;
+	box-shadow: 10px 10px 10px gray;
+}
+.blue{
+	transition-duration: .3s; 
+	width: 200px;
+	height: 150px;
+	margin:20px;
+	background-color: blue;
+	display: inline-block;
+	box-shadow: 10px 10px 10px gray;
+}
+.black{
+	transition-duration: .3s; 
+	width: 200px;
+	height: 150px;
+	margin:20px;
+	background-color: black;
+	display: inline-block;
+	box-shadow: 10px 10px 10px 5px gray;
+}
+@font-face{
+	font-family: myfonts;
+	src:url(McLaren-Regular.ttf);
+}
+#first{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	margin:0 auto;
+	/*transform: translate(50px,100px) rotate(45deg) scale(2,1) skew(20deg, 30deg);*/
+	transition: all 4s;
+
+}
+#first:hover{
+	width: 400px;
+	height: 400px;
+	
+	
+	
+	
+}
+	
